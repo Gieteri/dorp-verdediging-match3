@@ -1,48 +1,53 @@
- Dorp Verdediging: Match-3 Strategie
+🏰 Dorp Verdediging: Match-3 Strategie
 
-Welkom bij Dorp Verdediging, een uitdagend Match-3 puzzelspel gecombineerd met een tower defense-element. Wissel tegels om grondstoffen te verzamelen en verdedig het dorp tegen constante golven van Plunderaars!
+Welkom bij Dorp Verdediging, een uitdagend Match-3 puzzelspel gecombineerd met een tower defense-element! U moet snel denken, tegels wisselen, en strategisch bommen inzetten om de dreiging van oprukkende Plunderaars te stoppen.
 
 🔗 Live Spelen
 
 De game is direct speelbaar via GitHub Pages:
 
 KLIK HIER OM TE SPELEN!
-(Vergeet niet de link aan te passen naar uw eigen GitHub Pages URL)
+(Vergeet niet de link aan te passen naar uw eigen GitHub Pages URL!)
 
-🕹️ Hoe Speel Je Het Spel?
+🕹️ De Spelmechanica
 
-Het speelveld is verdeeld in twee delen:
+Het speelveld bestaat uit twee delen:
 
-De Match-3 Grid (Bovenste Helft)
+1. De Match-3 Grid (Verzameling & Aanval)
 
-Wisselen: Klik op een tegel en vervolgens op een aangrenzende tegel om ze van positie te wisselen.
+In de bovenste helft van het scherm:
 
-Matchen: Maak combinaties van drie of meer identieke grondstoftegels (Hout 🪵, Steen 🪨, Goud 💰) in een rij of kolom om ze te verwijderen en punten te verdienen.
+Wisselen: Selecteer twee aangrenzende tegels om ze van plaats te verwisselen.
 
-Power-ups:
+Matchen: Maak combinaties van drie of meer identieke grondstoftegels (🪵 Hout, 🪨 Steen, 💰 Goud) in een rij of kolom om ze te verwijderen en punten te verdienen.
 
-TNT 💣 (Rode Tegel): Het matchen van TNT veroorzaakt een krachtige explosie die schade toebrengt aan Plunderaars in de buurt. Dit is essentieel voor de verdediging!
+De Bom: Matchen van de 💣 TNT-tegel (Rood) veroorzaakt een krachtige explosie die schade toebrengt aan alle Plunderaars in de buurt (op het onderste speelveld). Dit is uw primaire verdedigingswapen!
 
-De Plunderaar Lane (Onderste Helft)
+2. De Plunderaar Lane (Verdediging)
 
-De Vijand: Plunderaars verschijnen aan de rechterkant van het scherm en bewegen langzaam naar de linkerkant (het dorp).
+In de onderste helft van het scherm:
 
-Verdediging: Gebruik TNT-matches om hun gezondheid te verlagen en ze te vernietigen voordat ze het dorp bereiken.
+De Vijand: Plunderaars verschijnen rechts en bewegen naar de rode verdedigingslijn aan de linkerkant (het dorp).
 
-Game Over: Als een Plunderaar de rode lijn aan de linkerkant bereikt, wordt de Dorpsgezondheid verlaagd. Als de gezondheid nul bereikt, is het spel voorbij.
+Gezondheid: Als een Plunderaar de rode lijn bereikt, wordt de Dorpsgezondheid verlaagd.
 
-Doel: Behaal een zo hoog mogelijke score en houd het dorp zo lang mogelijk veilig!
+Game Over: De missie mislukt wanneer de Dorpsgezondheid nul bereikt.
+
+Uw Missie: Behaal de hoogst mogelijke score door slimme Match-3 combinaties te maken, terwijl u de TNT gebruikt om de constante aanval van Plunderaars af te slaan.
 
 ⚙️ Technologie
 
-Dit project is een single-file, Vanilla JavaScript-game en maakt gebruik van de volgende technologieën:
+Dit project is ontwikkeld als een modern, zelfstandig webspel:
 
-HTML5 Canvas: Voor het tekenen van de Match-3 tegels en de Plunderaars.
+HTML5 Canvas: Voor het dynamische speelveld en de animaties.
 
-Pure JavaScript: Voor alle spel- en Match-3 logica.
+Pure JavaScript: Alle logica voor het wisselen, matchen, en de Plunderaar AI.
 
-CSS/Tailwind (Geïntegreerd): Voor de basisstyling en lay-out.
+Tailwind CSS (Geïntegreerd): Voor een schone en responsieve UI.
 
+✍️ Licentie
+
+Dit project valt onder de MIT-licentie. Voel u vrij om het te fork-en, aan te passen en te verbeteren!
 🤝 Bijdragen
 
 Voel je vrij om de code te forken en verbeteringen aan te brengen! Suggesties voor nieuwe tegeltypes, vijanden of power-ups zijn altijd welkom.
